@@ -32,6 +32,13 @@
     margin-top: 30px;
 }
 
+.two {
+    background: url("../images/gutter-clogged2.png");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .one {
     margin-top: 0;
 }
