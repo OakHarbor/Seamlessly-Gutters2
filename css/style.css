@@ -1839,6 +1839,23 @@ form p{
     }
 
     /*-- -------------------------- -->
+    <---       Gutter Guards        -->
+    <--- -------------------------- -*/
+
+    #guards {
+        padding: 100px 0;
+    }
+
+    #guards .container {
+        text-align: center;
+        width: 600px;
+    }
+
+    .gutter-guard-content h2 {
+        font-size: 45px;
+    }
+
+    /*-- -------------------------- -->
     <---          Services          -->
     <--- -------------------------- -*/
 
