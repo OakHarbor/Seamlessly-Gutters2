@@ -207,9 +207,25 @@ form p{
     opacity: .65;
 }
 
+#about {
+    padding: 50px 0;
+}
+
+#about .container {
+    max-width: 650px;
+}
+
+#about img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
 
 /* Tablets */
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1023px) {
 
     /*-- -------------------------- -->
     <---            FORM            -->
@@ -251,7 +267,7 @@ form p{
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
 
     /*-- -------------------------- -->
     <---            FORM            -->
@@ -295,5 +311,22 @@ form p{
     .right {
         float: right;
     }
+
+    #about {
+        padding-top: 100px;
+    }
+
+    #about .container {
+        max-width: 900px;
+    }
+
+    #about img {
+        float: left;
+        margin-right: 50px;
+        margin-bottom: 180px;
+        max-width: 200px;
+    }
+
+
 
 }

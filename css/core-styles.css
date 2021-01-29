@@ -764,7 +764,7 @@ footer a svg {
 
 
 /* Tablets */
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1023px) {
 
 	.mobile {
     	display: block;
@@ -778,7 +778,7 @@ footer a svg {
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
 
 	.mobile {
     	display: none;

@@ -206,10 +206,11 @@ body.dark-mode {
 
 h2.dark-mode, p.dark-mode {
     color: #fff !important;
+    opacity: .8;
 }
 
 p.dark-mode {
-    opacity: .9;
+    opacity: .7;
 }
 
 h3.dark-mode {
@@ -234,6 +235,15 @@ h3.dark-mode {
 
 .top-card.dark-mode {
     background: var(--medium);
+}
+
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+ul li.dark-mode {
+    color: #fff;
+    opacity: .7;
 }
 
 /*-- -------------------------- -->

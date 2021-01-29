@@ -1,0 +1,68 @@
+#gutter-content .container {
+    margin-top: 50px;
+}
+
+#hero {
+    display: none;
+}
+
+#gutter-content {
+    padding: 0px 0 50px;
+}
+
+#gutter-content h2 {
+    font-size: 35px;
+} 
+
+#gutter-content h3 {
+    color: var(--primary);
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.full-width {
+    height: 200px;
+    width: 100%;
+    background: url("../images/gutter-clogged.png");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.one {
+    margin-top: 0;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+ul li {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    #gutter-content .container {
+        max-width: 650px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #hero {
+        display: block;
+    }
+    
+    .one {
+        max-width: 650px;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .two {
+        margin: 50px 0;
+    }
+}

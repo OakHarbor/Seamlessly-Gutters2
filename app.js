@@ -273,6 +273,9 @@ var $clippy = $(".clippy");
 // About 
 var $topCard = $(".top-card");
 
+// About 
+var $listItem = $("ul li");
+
 // Services 
 var $services = $("#services");
 var $svgCircle = $(".svg-circle");
@@ -335,6 +338,9 @@ const enableDarkMode = () => {
   // About
   $topCard.addClass("dark-mode");
 
+  // Gutter Guards
+  $listItem.addClass("dark-mode");
+
   // Services
   $services.addClass("dark-mode");
   $svgCircle.addClass("dark-mode");
@@ -394,6 +400,9 @@ const disableDarkMode = () => {
 
   // About
   $topCard.removeClass("dark-mode");
+
+  // Gutter Guards
+  $listItem.removeClass("dark-mode");
 
   // Services
   $services.removeClass("dark-mode");
