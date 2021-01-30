@@ -146,6 +146,12 @@ button:hover {
     border: none;
 }
 
+.app-button {
+	font-size: 10px;
+	width: 200px;
+	padding: 6px 20px;
+}
+
 .hamburger {
     padding: 0;
     display: inline-block;
