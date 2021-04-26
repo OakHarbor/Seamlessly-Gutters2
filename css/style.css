@@ -156,6 +156,7 @@ h3 {
 
 #guards {
     padding: 50px 0;
+    text-align: center;
 }
 
 .guard-img {
@@ -163,6 +164,23 @@ h3 {
     display: inline-block;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.gutter-guard-content h2 {
+    font-size: 30px;
+}
+
+#roofing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.roofing-img {
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 400px;
 }
 
 .gutter-guard-content h2 {
@@ -798,6 +816,15 @@ form p{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        text-align: left;
+    }
+
+    #roofing .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 100px 0;
+        text-align: left;
     }
 
     .left {
@@ -806,6 +833,10 @@ form p{
 
     .gutter-guard-content {
         width: 50%;
+    }
+
+    .roofing-img {
+        width: 250px;
     }
 
     /*-- -------------------------- -->
@@ -1422,6 +1453,17 @@ form p{
         font-size: 45px;
     }
 
+    #roofing {
+        padding: 100px 0;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #roofing .container {
+        text-align: center;
+        width: 600px;
+    }
+
     /*-- -------------------------- -->
     <---          Services          -->
     <--- -------------------------- -*/
@@ -1853,6 +1895,11 @@ form p{
 
     .gutter-guard-content h2 {
         font-size: 45px;
+    }
+
+    #roofing {
+        max-width: 700px;
+        margin: auto;
     }
 
     /*-- -------------------------- -->
